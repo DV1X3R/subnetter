@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ -z "$(curl -s localhost)" ]
+then
+	sudo apachectl start
+	echo apache started
+else
+	sudo apachectl stop
+	echo apache stopped
+fi
+sleep 2
