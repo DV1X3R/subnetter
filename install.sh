@@ -1,0 +1,1 @@
+cp subnetter.sh /usr/local/bin/subnetter
