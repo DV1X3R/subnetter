@@ -3,7 +3,8 @@
 
 This little script can calculate basic subnet info using IP and prefix
 
-###Usage Example
+* Usage Example
+
 $ subnetter 192.168.0.1/24
 ```
 IPv4 Address:        192.168.0.1 /24     11000000.10101000.00000000.00000001
